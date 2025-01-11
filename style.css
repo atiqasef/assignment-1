@@ -37,6 +37,9 @@ body{
     border-radius: 5px;
     color: white;
 }
+.white{
+    background-color: #fff;
+}
 .green{
     font-size: 16px;
     background: #006A50;
@@ -45,9 +48,15 @@ body{
     background: rgb(19, 136, 209);
     font-size: 16px;
 }
+.light-yellow{
+    background: lightyellow;
+}
 .yellow{
     background: #FFC239;
     font-size: 16px;
+}
+.card-bg{
+    background-color: #C6E4D6;
 }
 /* Header Style */
 header{
@@ -131,7 +140,6 @@ border: 1px solid #006A50;
 }
 .card{
     width: 32%;
-    background: #C6E4D6;
     padding: 30px;
     border-radius: 15px;
 }
@@ -155,18 +163,61 @@ border: 1px solid #006A50;
 .quotation{
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 60px;
+    
+}
+.quotation-style{
     padding: 43px;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 4% 6%;
-    
+    margin: 60px 0px;
 }
-.quotation p{
+.quotation-style p{
     font-size: 16px;
     color: #494444;
 }
-.quotation h4{
+.quotation-style h4{
     margin: 20px 0px;
     font-size: 20px;
+}
+
+/* News Section */
+
+.news-section{
+    margin-bottom: 60px;
+}
+.news-section h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.news-section p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.news-card{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.mr-5{
+    margin-right: 70px;
+}
+.news-img img{
+    border-radius: 15px;
+    margin-right: 50px;
+}
+.news-description h2{
+    margin-bottom: 20px;
+}
+.news-description img{
+    margin-bottom: 10px;
+}
+.news-description time{
+   margin-right: 20px;
+}
+.news-description p{
+    margin: 20px 0px;
 }
