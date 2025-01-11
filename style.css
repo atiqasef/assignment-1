@@ -26,6 +26,9 @@ body{
     background-color: #eee;
 }
 /* Shared Css */
+.op{
+    opacity: .7;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -56,7 +59,7 @@ body{
     font-size: 16px;
 }
 .card-bg{
-    background-color: #C6E4D6;
+    background-color: #a9f1cf;
 }
 .light-blue{
     background-color: #C6E4D6;
@@ -194,6 +197,50 @@ border: 1px solid #006A50;
     font-size: 20px;
 }
 
+
+/* table section */
+.ml-5{
+    margin-left: 10%;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead th{
+    padding: 6px;
+    text-align: left;
+    background-color: #C6E4D6;
+}
+td{
+    padding: 10px 91px 10px 19px;
+    border: 1px solid #ddd;
+}
+.table-section{
+    margin-left: 4%;
+  
+    padding: 48px;
+}
+.table-section h2{
+    text-align: left;
+}
+select{
+    background-color: #C6E4D6;
+}
+.table-head-option{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #C6E4D6;
+    width: 88%;
+}
+.table-head-option h4{
+    
+}
+.creative-part{
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
 /* News Section */
 
 .news-section{
@@ -240,6 +287,10 @@ border: 1px solid #006A50;
 }
 
 /* Donate Style */
+.mll{
+    margin-left: 40%;
+    font-size: 16px;
+}
 .donate-section{
     width: 70%;
     margin: 0px auto;
@@ -262,8 +313,7 @@ border: 1px solid #006A50;
     
 }
 .custom-amount{
-    padding: 15px 30px;
-    border-radius: 10px;
+    padding: 0px 30px;
     width: 90%;
     margin: 0px auto;
 }
@@ -325,3 +375,4 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
 }
+
