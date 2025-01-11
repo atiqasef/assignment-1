@@ -150,3 +150,23 @@ border: 1px solid #006A50;
     
     border-radius: 10px;
 }
+
+/* Quotation section */
+.quotation{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 43px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 4% 6%;
+    
+}
+.quotation p{
+    font-size: 16px;
+    color: #494444;
+}
+.quotation h4{
+    margin: 20px 0px;
+    font-size: 20px;
+}
