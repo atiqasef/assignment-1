@@ -22,14 +22,32 @@ body{
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: #eee;
+}
 /* Shared Css */
-
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 .primary-btn{
     padding: 15px 30px;
-    background: #006A50;
+    
     border: none;
     border-radius: 5px;
     color: white;
+}
+.green{
+    font-size: 16px;
+    background: #006A50;
+}
+.blue{
+    background: rgb(19, 136, 209);
+    font-size: 16px;
+}
+.yellow{
+    background: #FFC239;
+    font-size: 16px;
 }
 /* Header Style */
 header{
@@ -72,4 +90,63 @@ border: 1px solid #006A50;
    
     padding-bottom: 100px;
     padding-top: 90px;
+}
+
+/* Card section */
+
+/* Section One */
+.card-section-one h2{
+    margin-bottom: 20px;
+}
+.simple-card{
+    margin-bottom: 60px;
+    display: flex;
+}
+.s-card{
+    width: 24%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.s-card img{
+    margin-bottom: 10px;
+}
+.s-card h4{
+    margin-bottom: 10px;
+}
+.s-card p{
+    margin-bottom: 10px;
+}
+/* Section Two */
+.card-section-two h2{
+    margin-bottom: 24px;
+}
+.card-section-two p{
+    margin-bottom: 32px;
+}
+.main-card{
+    display: flex;
+    gap: 0px 20px;
+}
+.card{
+    width: 32%;
+    background: #C6E4D6;
+    padding: 30px;
+    border-radius: 15px;
+}
+.card img{
+    margin-bottom: 20px;
+}
+.card h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.card p{
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.card button{
+    
+    border-radius: 10px;
 }
